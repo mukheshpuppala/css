@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    background-color:black;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 10px;
+
+}
+nav ul li a{
+    display:block;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    background-color:mediumvioletred;
+    font-style: italic;
+    border-bottom: 3px solid blue;
+    border-radius: 15px;
+}
+
+nav ul li a:hover{
+    background-color:aqua;
+}
+#key a:hover{
+    background-color:rgb(180, 166, 60);
+}
+#the a:hover{
+    background-color:rgb(96, 60, 180);
+}
+#main a:hover{
+    background-color:rgb(46, 138, 0);
+}
+#keycolor a:hover{
+    background-color:rgb(180, 60, 84);
+}
+nav ul li .dropdown {
+    display:none;    
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 0px;
+    z-index: 1;
+
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
+nav ul li .dropdown li{
+    display: block;
+}

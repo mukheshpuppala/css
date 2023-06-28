@@ -1,0 +1,42 @@
+body{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: brown;
+    color: black;
+    font-style:italic;
+
+}
+table{
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: black;
+  
+
+}
+ .price{
+    background-color: blue;
+
+}
+.price:hover{
+      background-color: blueviolet;
+}
+table tr td{
+    border-radius: 10px;
+    border-color: black;
+
+}
+table tr th{
+    border-radius: 10px;
+    border-color: black;
+    
+
+}
+.item{
+    background-color: chartreuse;
+}
+.item:hover{
+    background-color:darkgoldenrod;
+}

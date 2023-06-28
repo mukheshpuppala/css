@@ -1,0 +1,42 @@
+body{
+    font-size: medium;
+    background-color: aqua;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: auto;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+main{
+        display: flex;
+        flex-wrap: nowrap;
+}
+section{
+    flex: 2;
+    padding: 20px;
+}
+article{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media only screen and (max-width:300px){
+
+    main{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:plum;
+        vertical-align: bottom;
+
+    }
+}
